@@ -6,6 +6,6 @@ import javax.inject.Singleton;
 public class StandardTaxValidator implements TaxValidator{
     @Singleton
     public float getPetcentage(Dish d) {
-        return 0.19f;      
+        return 1.19f;      
     }
 }

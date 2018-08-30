@@ -2,19 +2,21 @@ package edu.eci.pdsw.orderCalculator;
 
 import org.junit.Test;
 import static org.quicktheories.QuickTheory.qt;
+import static org.quicktheories.generators.SourceDSL.*;
 
 public class OrdersManagerTest{
     @Test
     public void validarOrden() {
-        qt()
+        qt()                
         .forAll(OrderGenerator.order())
         .check(order ->  {
+            boolean reslt = true;
             if (order.getDishes().isEmpty()) {
                 return false;
             }
             else{
                 return true;
-            }         
+            }           
         });
     }
 }
