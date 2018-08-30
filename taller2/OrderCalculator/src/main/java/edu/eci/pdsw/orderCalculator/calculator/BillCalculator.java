@@ -1,6 +1,6 @@
-package main.java.edu.eci.pdsw.orderCalculator.calculator;
+package edu.eci.pdsw.orderCalculator.calculator;
 
-import main.java.edu.eci.pdsw.orderCalculator.model.Order;
+import edu.eci.pdsw.orderCalculator.model.Order;
 
 public interface BillCalculator {
     public int calculatePrice(Order o);

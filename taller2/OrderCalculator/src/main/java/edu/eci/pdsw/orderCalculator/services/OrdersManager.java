@@ -1,11 +1,11 @@
-package main.java.edu.eci.pdsw.orderCalculator.services;
+package edu.eci.pdsw.orderCalculator.services;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import main.java.edu.eci.pdsw.orderCalculator.calculator.BillCalculator;
-import main.java.edu.eci.pdsw.orderCalculator.model.Order;
-import main.java.edu.eci.pdsw.orderCalculator.model.OrderCalculatorException;
+import edu.eci.pdsw.orderCalculator.calculator.BillCalculator;
+import edu.eci.pdsw.orderCalculator.model.Order;
+import edu.eci.pdsw.orderCalculator.model.OrderCalculatorException;
 
 public class OrdersManager {
     BillCalculator cal;

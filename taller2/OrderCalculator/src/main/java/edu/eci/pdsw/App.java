@@ -1,4 +1,4 @@
-package main.java.edu.eci.pdsw;
+package edu.eci.pdsw;
 
 /**
  * Hello world!

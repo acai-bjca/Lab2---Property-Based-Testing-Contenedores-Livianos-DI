@@ -1,0 +1,6 @@
+#surefire
+#Wed Aug 29 22:30:38 COT 2018
+maven.ext.class.path=C\:\\Program Files\\NetBeans 8.2\\java\\maven-nblib\\netbeans-eventspy.jar
+user.dir=D\:\\NickZennin\\Documents\\GitHub\\taller2\\taller2\\OrderCalculator
+localRepository=C\:\\Users\\NickZennin\\.m2\\repository
+basedir=D\:\\NickZennin\\Documents\\GitHub\\taller2\\taller2\\OrderCalculator

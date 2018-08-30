@@ -2,7 +2,6 @@ package edu.eci.pdsw.orderCalculator;
 
 import org.junit.Test;
 import static org.quicktheories.QuickTheory.qt;
-import static org.quicktheories.generators.SourceDSL.*;
 
 public class OrdersManagerTest{
     @Test
@@ -15,8 +14,7 @@ public class OrdersManagerTest{
             }
             else{
                 return true;
-            }
-            return true;
+            }         
         });
     }
 }

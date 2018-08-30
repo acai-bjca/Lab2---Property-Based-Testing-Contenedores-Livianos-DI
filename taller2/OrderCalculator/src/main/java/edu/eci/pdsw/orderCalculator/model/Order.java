@@ -1,4 +1,4 @@
-package main.java.edu.eci.pdsw.orderCalculator.model;
+package edu.eci.pdsw.orderCalculator.model;
 
 import java.util.LinkedList;
 import java.util.List;

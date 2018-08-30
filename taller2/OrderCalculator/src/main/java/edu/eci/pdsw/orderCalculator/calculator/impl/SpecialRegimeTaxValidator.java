@@ -1,7 +1,7 @@
-package main.java.edu.eci.pdsw.orderCalculator.calculator.impl;
+package edu.eci.pdsw.orderCalculator.calculator.impl;
 
-import main.java.edu.eci.pdsw.orderCalculator.model.Dish;
-import main.java.edu.eci.pdsw.orderCalculator.model.DishType;;
+import edu.eci.pdsw.orderCalculator.model.Dish;
+import edu.eci.pdsw.orderCalculator.model.DishType;;
 import javax.inject.Singleton;
 
 public class SpecialRegimeTaxValidator implements TaxValidator{
